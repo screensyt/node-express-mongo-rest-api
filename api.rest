@@ -1,0 +1,17 @@
+GET http://localhost:3000/sadjhasd
+
+###
+GET http://localhost:3000/recipes
+
+###
+GET http://localhost:3000/recipes/5ebb0eae5339f53b22998b2e
+
+###
+POST  http://localhost:3000/recipes
+Content-Type: application/json
+
+{
+  "title": "New Recipe",
+  "desc": "New recipe desc",
+  "ingredients": ["🐱‍👤","😁","😘"]
+}
