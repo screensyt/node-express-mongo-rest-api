@@ -17,6 +17,9 @@ const Recipe = new Schema({
   ingredients: {
     type: Array,
   },
+  coverImage: {
+    type: String,
+  },
 });
 
 Recipe.pre("save", function (next) {

@@ -23,6 +23,7 @@ class RecipeController {
       title: recipeData.title,
       desc: recipeData.desc,
       ingredients: recipeData.ingredients,
+      coverImage: recipeData.coverImage,
     });
 
     const repo = new recipeRepo();
